@@ -14,3 +14,23 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+##install npm
+
+    npm init  
+
+    npm install -g create-react-app  
+
+    npm create vite@latest clonesite-app -- --template react
+
+    npm install tailwindcss @tailwindcss/vite  
+
+    npm install react-router-dom                                     
+
+    npm install -D @tailwindcss/postcss  
+
+    npm install                                                      
+
+    npm install lucide-react  
+
