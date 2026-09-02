@@ -1,50 +1,41 @@
  import { Routes, Route } from "react-router-dom";
 
-import Home from "./components/Home"; 
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Translator from "./pages/Translator";
+import RandomString from "./pages/RandomString";
 
 function App() {
-  return (
-    <div className="">
-      <Home />
+   return (
+    <div className="min-h-screen bg-slate-950 text-white">
 
-      {/* <Routes>
-        <Route path="/" element={<Home />} />
+      {/* NAVBAR */}
+      <Navbar />
 
-        <Route
-          path="/courses"
-          element={<Courses />}
-        />
+      {/* PAGES */}
+      <main className="mx-auto max-w-7xl px-6 pb-14 pt-20">
 
-        <Route
-          path="/courses/:name"
-          element={<CourseDetails />}
-        />
+        <Routes>
 
-        <Route
-          path="/bootcamp"
-          element={<Bootcamp />}
-        />
+          <Route
+            path="/"
+            element={<Home />}
+          />
 
-        <Route
-          path="/mentors"
-          element={<Mentors />}
-        />
+          <Route
+            path="/translate"
+            element={<Translator />}
+          />
 
-        <Route
-          path="/about"
-          element={<About />}
-        />
+          <Route
+            path="/random"
+            element={<RandomString />}
+          />
 
-        <Route
-          path="/login"
-          element={<Auth />}
-        />
+        </Routes>
 
-        <Route
-          path="/signup"
-          element={<Auth signup />}
-        />
-      </Routes> */}
+      </main>
+
     </div>
   );
 }
