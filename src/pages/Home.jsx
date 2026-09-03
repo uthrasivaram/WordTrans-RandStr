@@ -159,7 +159,7 @@ export default function Home() {
               <div className="absolute -left-4 top-14 rounded-2xl border border-emerald-400/30 bg-[#071426]/90 px-4 py-3 shadow-xl backdrop-blur-md sm:-left-10">
 
                 <div className="text-lg font-semibold text-emerald-300">
-                  100+
+                  13
                 </div>
 
                 <div className="text-xs text-slate-500">

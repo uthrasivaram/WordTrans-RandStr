@@ -140,7 +140,7 @@ export default function Translator() {
 
                 <Feature
                   icon="◎"
-                  title="100+ Languages"
+                  title="13 Languages"
                   description="Communicate globally"
                 />
 
